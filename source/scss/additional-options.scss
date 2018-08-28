@@ -33,7 +33,7 @@
     background-color: transparent;
     transform: rotate(37deg);
     left: 14px;
-    top: 0px;
+    top: -1px;
 }
 .additional-options__label::after {
     content: "";
@@ -43,7 +43,7 @@
     background-color: transparent;
     transform: rotate(-45deg);
     left: 3px;
-    top: 10px;
+    top: 9px;
 }
 .additional-options__checkbox:checked +.additional-options__label::before {
     background-color: greenyellow;

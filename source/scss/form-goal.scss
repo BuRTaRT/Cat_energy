@@ -21,7 +21,7 @@
     border: 1px solid grey;
     border-radius: 50px;
     left: -30px;
-    top: 0;
+    top: -2px;
 }
 .form-goal label::after {
     content: "";
@@ -31,7 +31,7 @@
     width: 10px;
     background-color: transparent;
     left: -24px;
-    top: 6px;
+    top: 4px;
     border-radius: 50px;   
 }
 .form-goal input:checked + label::after{

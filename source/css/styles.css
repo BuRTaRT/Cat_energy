@@ -425,7 +425,6 @@ template {
 
 .page-h1 {
   width: 100%;
-  height: 47px;
   font-size: 36px;
   line-height: 60px;
   color: #111111;
@@ -603,7 +602,7 @@ template {
 @media (min-width: 768px) {
   .showMore-items {
     height: 456px;
-    margin-top: 80px;
+    margin-top: 120px;
     width: 324px; }
   .showMore-items__text {
     font-size: 20px;
@@ -612,17 +611,16 @@ template {
   .showMore-items__text2 {
     font-size: 20px; }
   .showMore-items .button {
-    margin-top: 30px;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 98px; } }
+    top: 68px; } }
 
 @media (min-width: 1300px) {
   .showMore-items {
     height: 456px;
-    margin-top: 80px;
+    margin-top: 120px;
     width: 245px; }
   .showMore-items .button {
     width: 175px; } }
@@ -964,7 +962,7 @@ template {
   border: 1px solid grey;
   border-radius: 50px;
   left: -30px;
-  top: 0; }
+  top: -2px; }
 
 .form-goal label::after {
   content: "";
@@ -974,7 +972,7 @@ template {
   width: 10px;
   background-color: transparent;
   left: -24px;
-  top: 6px;
+  top: 4px;
   border-radius: 50px; }
 
 .form-goal input:checked + label::after {
@@ -1098,7 +1096,7 @@ template {
   background-color: transparent;
   transform: rotate(37deg);
   left: 14px;
-  top: 0px; }
+  top: -1px; }
 
 .additional-options__label::after {
   content: "";
@@ -1108,7 +1106,7 @@ template {
   background-color: transparent;
   transform: rotate(-45deg);
   left: 3px;
-  top: 10px; }
+  top: 9px; }
 
 .additional-options__checkbox:checked + .additional-options__label::before {
   background-color: greenyellow; }
