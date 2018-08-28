@@ -1,0 +1,37 @@
+.contacts{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	background-color: #f2f2f2;
+}
+.contacts__diller-invitationals{
+	flex-basis: 140px;
+	font-size: 16px;
+	margin: 31px 0;
+}
+.contacts__adress{
+	flex-basis: 140px;
+	margin: 31px 0;
+	opacity: 0.8;
+	font-size: 14px;
+	padding-top: 5px;
+	font-family: arial;
+}
+@media(min-width:768px){
+	.contacts{
+		justify-content:space-around;
+	}	
+	.contacts__diller-invitationals{
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	.contacts__adress{
+		font-size: 16px;
+	}
+}
+@media(min-width:768px){
+	.contacts{
+		display: none;
+	}
+}

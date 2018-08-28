@@ -1,0 +1,124 @@
+.product-item {
+	padding-top: 22px;
+}
+
+.product-item-container__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.product-item .hor-line {
+	display: none;
+}
+.product-item__img{
+	max-height: 96px;
+    padding-right: 35px;
+    
+	
+}
+
+.product-item__characters {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.product-item__amount {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-item__name {
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.product-item__taste {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-item__price {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (min-width:768px) {
+	.product-item {
+		min-height: 434px;
+		width: 324px;
+		position: relative;
+		background-color: #f2f2f2;
+		margin-top: 90px;
+	}
+	.product-item__name{
+		align-self: center;
+	}
+	.product-item-container__wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		min-height: 262px;
+	}
+	.product-item__characters {
+		flex-basis: auto;
+		font-size: 20px;
+		width: 85%;
+	}
+	.product-item__img {
+		position: relative;
+		top: -16px;
+		max-height:300px;
+         padding-right: 0;
+	}
+	.product-item__amount{
+		margin-top: 10px;
+	}
+	.product-item__price{
+		margin-top: 10px;
+	}
+	.product-item__img-wrapper {
+		height: 141px;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+	.product-item .button {
+		margin-top: 30px;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.product-item .hor-line {
+		background-color: black;
+		display: flex;
+		margin-top: 15px;
+		width: 100%;
+		margin: 5px auto;
+	}
+}
+
+@media(min-width:1300px){
+		.product-item {
+		min-height: 434px;
+		width: 245px;
+		background-color: #f2f2f2;
+			margin: 0 10px;
+		margin-top: 90px;
+	}
+	.product-item .button {
+		margin-top: 30px;
+		width: 175px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+    .product-item__img{
+        padding-right: 0;
+    }
+}

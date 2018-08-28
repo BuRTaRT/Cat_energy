@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Energy Catalog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="main-header">
+                <div class="main-header__logo"></div>
+                <div class="main-header__site-name"></div>
+                <div class="tablet-nav">
+                    <a href="" class="tablet-nav__link">Главная</a>
+                    <a href="index.html" class="tablet-nav__link tablet-nav__link">Каталог Продукции</a>
+                    <a href="form.html" class="tablet-nav__link tablet-nav__link_active">Подбор программы</a>
+                </div>
+                <nav class="mob-nav"></nav>
+            </header>
+
+
+
+            <div class="nav">
+                <div class="hor-line"></div>
+                <a href="" class="nav__links">Главная</a>
+                <div class="hor-line hor-line_noMargin "></div>
+                <a href="index.html" class="nav__links">Каталог продукции</a>
+                <a href="form.html" class="nav__links">Подбор программы</a>
+            </div>
+
+
+            <div class="hor-line"></div>
+            <h1 class="page-h1">Подбор продукции</h1>
+            <p>заполните анкету и мы подбирём программу питания для вашего кота</p>
+
+
+            <div class="form-flex-wrapper">
+                <div class="flex-container">
+                    <div class="form-input"><span>ИМЯ:*</span>
+                        <input class="form-input__input" type="text" placeholder="Автандил">
+                    </div>
+                    <div class="form-input"><span>ВЕС(КГ):</span>
+                        <input class="form-input__input" type="text" placeholder="150">
+                    </div>
+                    <div class="form-input"><span>ВОЗРАСТ(ЛЕТ):</span>
+                        <input class="form-input__input" type="text" placeholder="0.5">
+                    </div>
+                </div>
+
+                <div class="flex-container">
+                    <div class="form-goal">
+                        <input type="radio" name="choise" id="first">
+                        <label for="first">ПОХУДЕНИЕ</label>
+                        <br>
+                        <input type="radio" name="choise" id="second">
+                        <label for="second">НАБОР МАССЫ</label>
+                        <br>
+                        <input type="radio" name="choise" id="third">
+                        <label for="third">НЕ ЗНАЮ(НУЖЕН ВАШ СОВЕТ)</label>
+                    </div>
+                </div>
+            </div>
+            <div class="line-styled">
+                <h2 class="line-styled__h2">Контактные данные <br>(Владельца кота)</h2>
+                <div class="line-styled__line"></div>
+            </div>
+
+            <div class="contact-data">
+                <div class="contact-data__item">
+                    <span>E-MAIL :* </span>
+                    <input type="text" placeholder="e-mail">
+                </div>
+                <div class="contact-data__item">
+                    <span>Телефон :* </span>
+                    <input type="text" placeholder="phone">
+                </div>
+            </div>
+            <div class="line-styled">
+                <h2 class="line-styled__h2">Комментарий</h2>
+                <div class="line-styled__line"></div>
+            </div>
+            <div class="animal-comments">
+                <textarea class="animal-comments__input" placeholder="РАССКАЖИТЕ ОБО ВСЕХ ПОВАДКАХ КОТА"></textarea>
+            </div>
+            <div class="line-styled">
+                <h2 class="line-styled__h2">Дополнительно</h2>
+                <div class="line-styled__line"></div>
+            </div>
+            <div class="additional-options">
+                <div class="additional-options__option">
+
+                    <input type="checkbox" class="additional-options__checkbox" id="checkbox1">
+                    <label for="checkbox1" class="additional-options__label"><span class="additional-options-square"></span>Сахарозаменитель</label>
+                </div>
+                <div class="additional-options__option">
+
+                    <input type="checkbox" class="additional-options__checkbox" id="checkbox2">
+                    <label for="checkbox2" class="additional-options__label"><span class="additional-options-square"></span>Питьевая вода</label>
+                </div>
+                <div class="additional-options__option">
+
+                    <input type="checkbox" class="additional-options__checkbox" id="checkbox3">
+                    <label for="checkbox3" class="additional-options__label"><span class="additional-options-square"></span>Молоко</label>
+                </div>
+                <div class="additional-options__option">
+
+                    <input type="checkbox" class="additional-options__checkbox" id="checkbox4">
+                    <label for="checkbox4" class="additional-options__label"> <span class="additional-options-square"></span>Витамины</label>
+                </div>
+            </div>
+            <div class="send-button-block">
+                <div class=" button send-button-block__button">ОТПРАВИТЬ ЗАЯВКУ</div>
+                <div class="send-button-block__info">* - Обязательные поля</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contacts">
+        <p class="contacts__diller-invitationals">Приглашаем к сотрудничеству диллеров!</p>
+        <p class="contacts__adress">ул.Большая
+            <br> Конюшная д.19/8
+            <br>Санкт Петербург</p>
+    </div>
+
+
+    <div class="map-container">
+        <div class="map"></div>
+        <div class="map__logo-pointer"></div>
+    </div>
+
+    <footer class="footer">
+        <img class="footer__logo" src="./img/footer-logo.png" alt="">
+        <div class="hor-line hor-line_short"></div>
+        <div class="footer__social">
+            <img class="footer__vk" src="./img/m-vk.png" alt="">
+            <img class="footer__insta" src="./img/m-insta.png" alt="">
+            <img class="footer__fb" src="./img/m-fb.png" alt="">
+        </div>
+        <div class="hor-line hor-line_short"></div>
+        <div class="footer__creator">
+            <div class="footer__developer">Буркацкий Артём</div>
+            <img class="footer__icon" src="./img/htmlacademy.png" alt="footer-icon">
+        </div>
+    </footer>
+    <script src="js/mob-catalog.js"></script>
+
+</body>
+
+</html>

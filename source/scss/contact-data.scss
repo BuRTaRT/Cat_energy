@@ -1,0 +1,23 @@
+.contact-data__item input {
+    padding: 10px;
+    flex-grow: 1;
+    margin-right: 15px;
+}
+.contact-data__item span {
+    align-self: center;
+    margin-right: 10px;
+}
+.contact-data__item{
+    margin: 10px;
+    display: flex;
+}
+
+@media(min-width: 1300px) {
+    .contact-data {
+        display: flex;
+        flex-direction: row;
+        &__item{
+            flex-grow: 1;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.form-flex-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container {
+    padding: 10px;
+    flex-grow: 1;
+}
+.form-input__input{
+    flex-grow: 1;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+}
+
+@media (min-width:1200px) {
+    .form-flex-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .flex-container{
+      flex-grow: 1;
+    }
+}

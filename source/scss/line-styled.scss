@@ -1,0 +1,39 @@
+.line-styled {
+    min-width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 21px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding-right: 10px;
+    &__h2 {
+        font-family: Oswald;
+        font-size: 24px;
+        display: inline-block;
+        position: relative;
+        font-size: 26px;
+        z-index: 3;
+        background-color: white;
+        padding-right: 15px;
+        
+    }
+    &__line {
+        min-height: 2px;
+        width: 100%;
+        background-color: #68b738;
+        position: absolute;
+        top: 37px;
+        z-index: 1;
+        
+    }
+}
+
+@media (min-width: 768px){
+    .line-styled__line{
+         width: 105%;
+        left: -40px; 
+        
+    }
+    
+}

@@ -1,0 +1,51 @@
+.cross {
+	margin: 0 auto;
+	height: 32px;
+	position: relative;
+	width: 32px;
+	&::before {
+		position: absolute;
+		top: 0;
+		left: 15px;
+		content: "";
+		height: 32px;
+		width: 2px;
+		background-color: gray;
+	}
+	&::after {
+		position: absolute;
+		top: 15px;
+		left: 0;
+		content: "";
+		height: 2px;
+		width: 32px;
+		background-color: gray;
+	}
+}
+
+@media (min-width:768px) {
+	.cross {
+		margin: 0 auto;
+		height: 60px;
+		position: relative;
+		width: 60px;
+		&::before {
+			position: absolute;
+			top: 0;
+			left: 30px;
+			content: "";
+			height: 60px;
+			width: 2px;
+			background-color: gray;
+		}
+		&::after {
+			position: absolute;
+			top: 30px;
+			left: 0;
+			content: "";
+			height: 2px;
+			width: 60px;
+			background-color: gray;
+		}
+	}
+}

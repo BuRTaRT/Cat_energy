@@ -1,0 +1,36 @@
+.button {
+	width: 100%;
+	max-width: 400px;
+	background-color: #68b738;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	margin: 0 auto;
+	margin-top: 15px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.button_gray {
+	background-color: #f2f2f2;
+	color: #444444;
+}
+
+@media(min-width:768px) {
+	.button {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(min-width:1300px) {
+	.button {
+		max-width: 250px;
+		margin: 0 0;
+	}
+}

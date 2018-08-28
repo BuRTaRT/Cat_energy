@@ -1,0 +1,29 @@
+.hor-line {
+	width: 100%;
+	height: 1px;
+	background-color: gray;
+	margin-top: 25px;
+	opacity: 0.3;
+	margin-left:  auto;
+	margin-right: auto;
+}
+
+.hor-line_short {
+	width: 80%;
+	opacity: 0.6;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hor-line_noMargin {
+	margin-top: 0;
+}
+
+@media(min-width:768px) {
+	.hor-line {
+		display: none;
+	}
+	.footer .hor-line_short{
+		display: none;
+	}
+}
