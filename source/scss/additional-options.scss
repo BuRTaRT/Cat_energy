@@ -51,11 +51,25 @@
 .additional-options__checkbox:checked +.additional-options__label::after {
     background-color: greenyellow;
 }
+@media (min-width:768px){
+   .additional-options {
+        flex-direction: row;
+       flex-wrap: wrap;
+       
+    } 
+    .additional-options__option{
+        flex-basis: 50%;
+    }
+    
+}
+    
+
 @media (min-width:1300px) {
     .additional-options {
         flex-direction: row;
     }
     .additional-options__option{
+        flex-basis: 0%;
         flex-grow: 1;
     }
 }

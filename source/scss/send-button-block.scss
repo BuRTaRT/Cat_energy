@@ -1,11 +1,21 @@
 .send-button-block {
-    margin: 30px auto;
+    margin: 30px 0;
 }
 .send-button-block__info {
     text-align: center;
     padding: 10px;
 }
-@media(min-width: 1300px) {
+@media (min-width: 768px) {
+    .send-button-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .send-button-block__button {
+        margin: 0px 0px;
+    }
+}
+@media (min-width: 1300px) {
     .send-button-block {
         display: flex;
         flex-direction: row;
@@ -14,7 +24,7 @@
     .send-button-block__info {
         justify-content: flex-start;
     }
-    .send-button-block__button{
+    .send-button-block__button {
         max-width: 550px;
         margin-right: 70px;
     }
