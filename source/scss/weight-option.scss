@@ -1,0 +1,88 @@
+.weight-option {
+    height: 265px;
+    width: 240px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    margin-top: 25px;
+    padding: 20px;
+    justify-content: center;
+}
+.weight-option__header {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    width: 100%;
+}
+.weight-option__icon {
+    background: url(../img/Ellipse%201%20copy.png)no-repeat;
+    height: 55px;
+    width: 55px;
+    background-position: center;
+    position: relative;
+}
+.puma-seat::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 36px;
+    background: url(../img/Vector%20Smart%20Object.png) no-repeat;
+    top: -2px;
+    left: 13px;
+}
+.puma-walk::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 33px;
+    width: 72px;
+    background: url(../img/Vector%20Smart%20Object%20copy%202.png) no-repeat;
+    top: 14px;
+    left: -6px;
+}
+.weight-option__h2 {
+    align-self: auto;
+    margin-left: 20px;
+}
+.weight-option__text {
+    width: 235px;
+    height: 108px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(68, 68, 68);
+    font-family: "Arial";
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.weigth-option__href {
+    position: relative;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.weigth-option__href a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: black;
+    top: 8px;
+    left: 100px;
+}
+.weigth-option__href a::after {
+    content: "";
+    position: absolute;
+    border: 5px solid transparent;
+    border-left: 10px solid black;
+    top: 4px;
+    left: 120px;
+}
+.weigth-option__href a{
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+}

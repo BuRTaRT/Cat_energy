@@ -22,7 +22,14 @@
 @import "animal-comments";
 @import "additional-options";
 @import "send-button-block";
+@import "functional-food";
+@import "weight-option";
+@import "how-it-works-list";
+@import "live-example";
 
+body {
+    font-family: Oswald;
+}
 .wrapper {
     max-width: 320px;
     margin: 0 auto;

@@ -1,7 +1,6 @@
-'use strict'
 
 window.onload = function () {
-    var navIcon = document.querySelector(`.mob-nav`);
+    var navIcon = document.querySelector(".mob-nav");
     var nav = document.querySelector(".nav");
     navIcon.onclick = function () {
         navIcon.classList.toggle("mob-nav_hide");

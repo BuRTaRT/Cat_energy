@@ -1,0 +1,79 @@
+.live-example {
+    width: 280px;
+    padding: 0 20px;
+    height: 700px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+}
+.live-example__header {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.live-example__text {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Arial";
+}
+.live-example__results {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.live-example__res {
+    display: flex;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 120px;
+    height: 55px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.live-example__value {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+}
+.live-example__value-info {
+    position: absolute;
+    background-color: #F2F2F2;
+    top: 45px;
+    left: 32px;
+}
+.live-example__summary-value {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.live-example__img {
+    margin-top: 40px;
+}
+.live-example__was-become {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 15px;
+}
+.live-example__toggler {
+    height: 10px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 20px;
+    position: relative;
+}
+.live-example__toggler::before{
+    content: "";
+    height: 7px;
+    width: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1.4px;
+    left: 4px;
+    background-color: green;
+}

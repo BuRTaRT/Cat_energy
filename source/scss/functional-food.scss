@@ -1,0 +1,25 @@
+    .functional-food {
+        background: url(../img/index-background-mobile.png) no-repeat;
+        background-size:contain;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        height: auto;
+        margin-top: 10px;
+        width: 300px;
+    }
+    .functional-food h1 {
+        margin: 0 auto;
+        padding-top: 35px;
+    }
+.functional-food p{
+    font-size: 14px;
+}
+    .functional-food__img {
+        margin-top: 5px;
+    }
+.functional-food__button{
+    max-width: 280px;
+    margin: 0 auto;
+    font-size: 13px;
+}
