@@ -1162,13 +1162,14 @@ template {
 
 .functional-food {
   background: url(../img/index-background-mobile.png) no-repeat;
-  background-size: contain;
   text-align: center;
+  background-size: contain;
   margin: 0 auto;
   color: white;
   height: auto;
   margin-top: 10px;
-  width: 300px; }
+  width: 280px;
+  box-sizing: border-box; }
 
 .functional-food h1 {
   margin: 0 auto;
@@ -1188,7 +1189,7 @@ template {
 @media (min-width: 768px) {
   .functional-food {
     background-image: url("../img-tablet/index-can-tablet.jpg.png");
-    min-width: 709px;
+    width: 100%;
     height: 829px;
     background-position: bottom; }
   .functional-food h1 {
@@ -1215,14 +1216,15 @@ template {
     line-height: 20px; } }
 
 .weight-option {
-  height: 265px;
-  width: 240px;
+  height: 290px;
+  width: 280px;
   margin: 0 auto;
   background-color: #F2F2F2;
   margin-top: 25px;
   padding: 20px;
   justify-content: center;
-  position: relative; }
+  position: relative;
+  box-sizing: border-box; }
 
 .weight-option__header {
   display: flex;
@@ -1305,7 +1307,7 @@ template {
 
 @media (min-width: 768px) {
   .weight-option {
-    width: 630px;
+    width: 100%;
     padding-left: 50px; }
   .weight-option__icon {
     background: url(../img-tablet/Ellipse%201%20copy.png) no-repeat;
@@ -1351,7 +1353,8 @@ template {
 .how-it-works-list {
   margin: 0 auto;
   width: 280px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  box-sizing: border-box; }
 
 .how-it-works-list__item {
   position: relative;
@@ -1429,7 +1432,7 @@ template {
 
 @media (min-width: 768px) {
   .how-it-works-list {
-    width: 708px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
@@ -1494,7 +1497,8 @@ template {
   padding: 0 10px;
   background-color: #F2F2F2;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  box-sizing: border-box; }
 
 .live-example__header {
   font-size: 36px;
@@ -1575,7 +1579,7 @@ template {
 
 @media (min-width: 768px) {
   .live-example {
-    width: 708px;
+    width: 100%;
     background-color: white; }
   .live-example__header {
     font-size: 60px;
@@ -1623,7 +1627,7 @@ template {
     top: 200px;
     left: 0;
     height: 465px;
-    width: 708px;
+    width: 100%;
     z-index: 2; }
   .live-example__was-become {
     position: relative;

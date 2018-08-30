@@ -1,12 +1,13 @@
     .functional-food {
         background: url(../img/index-background-mobile.png) no-repeat;
-        background-size: contain;
         text-align: center;
+        background-size: contain;
         margin: 0 auto;
         color: white;
         height: auto;
         margin-top: 10px;
-        width: 300px;
+        width: 280px;
+        box-sizing: border-box;
     }
     .functional-food h1 {
         margin: 0 auto;
@@ -26,7 +27,7 @@
     @media (min-width: 768px) {
         .functional-food {
             background-image: url("../img-tablet/index-can-tablet.jpg.png");
-            min-width: 709px;
+            width: 100%;
             height: 829px;
             background-position: bottom;
         }
