@@ -29,15 +29,15 @@
                 <a href="catalog.html" class="nav__links">Каталог продукции</a>
                 <a href="form.html" class="nav__links">Подбор программы</a>
             </div>
-            
-            
+
+
             <div class="functional-food">
                 <h1>Функциональное <br> питание для котов</h1>
                 <p>ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
                 <picture>
-                 <source srcset="#" media="(min-width: 768px)">
-                <img class="functional-food__img" src="./img/index-can-mobile.png.png" alt="">
-               
+                    <source srcset="#" media="(min-width: 768px)">
+                    <img class="functional-food__img" src="./img/index-can-mobile.png.png" alt="">
+
                 </picture>
                 <div class="button functional-food__button">ПОДОБРАТЬ ПРОГРАММУ</div>
             </div>
@@ -99,7 +99,15 @@
                     </div>
                 </div>
                 <div class="live-example__summary-value">ЗАТРАТЫ НА ПИТАНИЕ: 15 000 РУБ.</div>
-                <div class="live-example__img"><img src="img/before-mobile.png" alt="cat-before" width="280"></div>
+                <div class="live-example__img">
+                    <div class="gray"></div>
+                    <picture>
+                        <source srcset="img-tablet/before-tablet.png" media="(min-width: 768px)">
+                        <img src="img/before-mobile.png" alt="cat-before" width="280"></picture>
+                    <picture class="live-example__img-visible-hidden">
+                        <img src="img-tablet/after-tablet.png" alt="caafter">
+                    </picture>
+                </div>
                 <div class="live-example__was-become">
                     <div class="live-example__was">БЫЛО</div>
                     <div class="live-example__toggler"></div>
