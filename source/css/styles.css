@@ -931,7 +931,7 @@ template {
 
 @font-face {
   font-family: Oswald;
-  src: url(../fonts/Oswald-light.ttf); }
+  src: url(../fonts/Oswald-Light.ttf); }
 
 .form-input {
   padding: 10px;
@@ -1193,11 +1193,11 @@ template {
     background-position: bottom; }
   .functional-food h1 {
     color: black;
-    width: 420px;
     font-size: 60px;
     line-height: 60px;
     text-align: left;
-    margin-left: 85px; }
+    margin-left: 85px;
+    font-family: Oswald; }
   .functional-food p {
     margin-top: 35px;
     margin-bottom: 20px;
