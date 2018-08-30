@@ -4,6 +4,7 @@
     padding-bottom: 30px;
 }
 .how-it-works-list__item {
+    position: relative;
     margin-top: 20px;
     display: flex;
     justify-content: flex-start;
@@ -27,43 +28,91 @@
 }
 .advantage1::before {
     content: "";
-    height: 30px;
-    width: 30px;
+    height: 29px;
+    width: 26px;
     position: absolute;
+    background-position: center;
     background: url(../img/advantage-1.png.png) no-repeat;
-    left: 17px;
-    top: 15px;
+    left: 50%;
+    top: 50%;
+    margin-top: -14.5px;
+    margin-left: -13px;
 }
 .advantage2::before {
     content: "";
-    height: 30px;
-    width: 30px;
+    height: 31px;
+    width: 29px;
     position: absolute;
     background: url(../img/andvantage-2.png.png) no-repeat;
-    left: 15px;
-    top: 15px;
+    left: 50%;
+    top: 50%;
+    margin-top: -15.5px;
+    margin-left: -14.5px;
 }
 .advantage3::before {
     content: "";
     height: 30px;
-    width: 30px;
+    width: 23px;
     position: absolute;
     background: url(../img/advantage-3.png.png) no-repeat;
-    left: 17px;
-    top: 15px;
+    left: 50%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -11.5px;
 }
 .advantage4::before {
     content: "";
-    height: 30px;
-    width: 30px;
+    height: 31px;
+    width: 26px;
     position: absolute;
     background: url(../img/advantage-4.png.png) no-repeat;
-    left: 17px;
-    top: 15px;
+    left: 50%;
+    top: 50%;
+    margin-top: -15.5px;
+    margin-left: -13px;
 }
 .how-it-works-list__text {
     font-size: 14px;
     line-height: 18px;
     max-width: 200px;
     font-family: "Arial";
+}
+@media (min-width: 768px) {
+    .how-it-works-list {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .how-it-works-list__item {
+        height: 235px;
+        width: 215px;
+        margin-right:120px;
+        display: flex;
+        flex-direction: column;
+    }
+    .how-it-works-list__header {
+        font-size: 60px;
+        line-height: 60px;
+        width: 100%;
+    }
+    .how-it-works-list__image {
+        height: 80px;
+        width: 80px;
+    }
+    .how-it-works-list__text {
+        margin-top: 25px;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Arial";
+    }
+    .item1::before {
+        content: "";
+        height: 228px;
+        width: 71px;
+        position: absolute;
+        background: url(../img-tablet/1.png) no-repeat;
+        right: 20px;
+        top: 0;
+        z-index: -1;
+    }
 }

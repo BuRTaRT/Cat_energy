@@ -1,6 +1,6 @@
     .functional-food {
         background: url(../img/index-background-mobile.png) no-repeat;
-        background-size:contain;
+        background-size: contain;
         text-align: center;
         margin: 0 auto;
         color: white;
@@ -12,14 +12,47 @@
         margin: 0 auto;
         padding-top: 35px;
     }
-.functional-food p{
-    font-size: 14px;
-}
+    .functional-food p {
+        font-size: 14px;
+    }
     .functional-food__img {
         margin-top: 5px;
     }
-.functional-food__button{
-    max-width: 280px;
-    margin: 0 auto;
-    font-size: 13px;
-}
+    .functional-food__button {
+        max-width: 280px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+    @media (min-width: 768px) {
+        .functional-food {
+            background-image: url("../img-tablet/index-can-tablet.jpg.png");
+            min-width: 709px;
+            height: 829px;
+            background-position: bottom;
+        }
+        .functional-food h1 {
+            color: black;
+            width: 420px;
+            font-size: 60px;
+            line-height: 60px;
+            text-align: left;
+            margin-left: 85px;
+        }
+        .functional-food p {
+            margin-top: 35px;
+            margin-bottom: 20px;
+            color: black;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 90px;
+            font-weight: 600;
+        }
+        .functional-food__button {
+            margin-left: 85px;
+            width: 250px;
+            height: 55px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }

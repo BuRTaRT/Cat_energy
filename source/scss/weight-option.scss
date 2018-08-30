@@ -6,6 +6,7 @@
     margin-top: 25px;
     padding: 20px;
     justify-content: center;
+    position: relative;
 }
 .weight-option__header {
     display: flex;
@@ -71,7 +72,7 @@
     width: 20px;
     background-color: black;
     top: 8px;
-    left: 100px;
+    left: 120px;
 }
 .weigth-option__href a::after {
     content: "";
@@ -79,10 +80,64 @@
     border: 5px solid transparent;
     border-left: 10px solid black;
     top: 4px;
-    left: 120px;
+    left: 140px;
 }
-.weigth-option__href a{
+.weigth-option__href a {
     text-decoration: none;
     color: black;
     padding-right: 50px;
+}
+@media(min-width: 768px) {
+    .weight-option {
+        width: 630px;
+        padding-left: 50px;
+    }
+    .weight-option__icon {
+        background: url(../img-tablet/Ellipse%201%20copy.png)no-repeat;
+        position: absolute;
+        top: 40px;
+        left: 423px;
+        height: 200px;
+        width: 200px;
+    }
+    .puma-seat::before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 195px;
+        width: 145px;
+        background: url(../img-tablet/cat-seat.svg) no-repeat;
+        top: -8px;
+        left: 33px;
+    }
+    .puma-walk::before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 113px;
+        width: 270px;
+        background: url(../img-tablet/cat-walk.svg) no-repeat;
+        top: 38px;
+        left: -36px;
+    }
+    .weight-option__text {
+        width: 340px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .weight-option__hr {
+        display: none;
+    }
+    .weight-option__h2 {
+        font-size: 36px;
+        line-height: 37px;
+        margin-left: 0;
+    }
+    .second {
+        width: 300px;
+    }
+    .weigth-option__href {
+        font-size: 20px;
+        line-height: 20px;
+    }
 }
