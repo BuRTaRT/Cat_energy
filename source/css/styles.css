@@ -839,7 +839,7 @@ template {
     display: none; } }
 
 .map-container {
-  height: 400px;
+  min-height: 350px;
   width: 100%;
   display: flex;
   position: relative;
@@ -866,8 +866,6 @@ template {
     background-size: cover; } }
 
 @media (min-width: 1300px) {
-  .map-container {
-    margin-top: 50px; }
   .map {
     background: url(../img-desktop/map.png) no-repeat;
     background-position: center; }
@@ -1264,7 +1262,7 @@ functional-food__desktop-background2 {
     margin-left: -276px; } }
 
 .weight-option {
-  height: 290px;
+  height: 305px;
   width: 280px;
   margin: 0 auto;
   background-color: #F2F2F2;
@@ -1320,8 +1318,7 @@ functional-food__desktop-background2 {
   line-height: 18px;
   color: #444444;
   font-family: "Arial";
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-top: 10px; }
 
 .weigth-option__href {
   position: relative;
@@ -1594,186 +1591,262 @@ functional-food__desktop-background2 {
     flex-direction: column; } }
 
 .live-example {
-  width: 280px;
-  padding: 0 10px;
+  min-height: 500px;
   background-color: #F2F2F2;
-  margin: 0 auto;
-  position: relative;
-  box-sizing: border-box; }
+  width: 320px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 auto; }
 
-.live-example__header {
+.live_example__header {
   font-size: 36px;
-  line-height: 60px;
-  font-weight: 600; }
+  font-weight: 600;
+  padding-top: 25px;
+  height: auto; }
 
 .live-example__text {
+  margin-top: 30px;
+  margin-bottom: 25px;
   font-size: 14px;
   line-height: 18px;
+  color: #444444;
   font-family: "Arial"; }
 
-.live-example__results {
+.live-example__food-costs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 25px; }
+  text-align: center; }
 
-.live-example__res {
-  display: flex;
-  position: relative;
-  border: 1px solid gray;
-  border-radius: 4px;
+.live-example__item {
+  box-sizing: border-box;
   width: 120px;
-  height: 55px;
-  align-items: center;
-  text-align: center;
-  justify-content: center; }
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  padding: 10px 0;
+  position: relative;
+  margin-bottom: 30px; }
 
-.live-example__value {
+.live-example__item-value {
   font-size: 24px;
-  line-height: 24px;
-  font-weight: 800; }
+  line-height: 24px; }
 
-.live-example__value-info {
+.live-example__item-text {
   position: absolute;
   background-color: #F2F2F2;
-  top: 45px;
-  left: 32px; }
-
-.live-example__summary-value {
-  margin-top: 40px;
+  width: 60px;
+  bottom: -38%;
+  left: 50%;
+  margin-left: -30px;
   text-align: center;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Arial"; }
+
+.live-example__sum {
+  flex-grow: 1;
   font-size: 14px;
   line-height: 20px;
-  font-weight: 600; }
+  text-align: center; }
 
-.live-example__img {
-  width: 280px;
+.live-example__img1 {
+  background-image: url(../img/before-mobile.png);
+  background-repeat: no-repeat;
+  height: 232px;
   margin: 0 auto;
-  margin-top: 40px; }
+  margin-top: 40px;
+  background-position: center; }
 
-.live-example__was-become {
+.live-example__was-is {
+  margin-top: 35px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 15px; }
+  justify-content: center; }
 
 .live-example__toggler {
+  margin: 0 10px;
   height: 10px;
   width: 80px;
   background-color: white;
-  border: 1px solid gray;
-  border-radius: 10px;
-  margin: 0 20px;
+  border-radius: 100px;
   position: relative; }
 
 .live-example__toggler::before {
   content: "";
-  height: 7px;
-  width: 30px;
-  border-radius: 10px;
+  background-color: green;
+  border-radius: 100px;
+  width: 35px;
+  height: 6px;
   position: absolute;
-  top: 1.4px;
-  left: 4px;
-  background-color: green; }
+  left: 10%;
+  top: 50%;
+  margin-top: -3px; }
 
-.live-example__img-visible-hidden {
-  display: none; }
+.live-example__was-is-text {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600; }
 
 @media (min-width: 768px) {
   .live-example {
     width: 100%;
-    background-color: white; }
-  .live-example__header {
+    padding: 0px;
+    background-color: transparent; }
+  .live_example__header {
     font-size: 60px;
     line-height: 60px; }
   .live-example__text {
-    margin-top: 40px;
     font-size: 16px;
     line-height: 24px; }
-  .live-example__results {
-    justify-content: space-between;
-    width: 280px; }
-  .live-example__value-info {
+  .live-example__food-costs {
+    justify-content: flex-start;
+    position: relative; }
+  .live-example__item {
+    margin-right: 40px; }
+  .live-example__item-text {
     background-color: white; }
-  .live-example__summary-value {
+  .live-example__sum {
+    text-align: right;
+    flex-grow: 0;
+    width: 128px;
     position: absolute;
-    font-size: 20px;
-    line-height: 20px;
-    top: 165px;
-    left: 510px;
-    width: 188px;
-    text-align: right; }
-  .live-example__img {
-    padding-top: 40px;
-    margin-top: 0;
-    margin: 0 auto;
-    width: auto;
-    position: relative;
-    background-color: transparent; }
-  .live-example__img img {
-    width: auto;
-    height: auto;
-    margin: 0 auto;
+    right: 0; }
+  .live-example__wrap2 {
     background-color: transparent;
     position: relative;
-    z-index: 100; }
-  .live-example__img-visible-hidden {
-    display: inline;
-    position: absolute;
-    left: 107px;
-    top: 50px;
-    z-index: 3; }
-  .gray {
-    background-color: #EAEAEA;
-    position: absolute;
-    top: 200px;
-    left: 0;
-    height: 465px;
-    width: 100%;
-    z-index: 2; }
-  .live-example__was-become {
+    overflow: hidden; }
+  .live-example__img1 {
+    background-image: url(../img-tablet/before-tablet.png);
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 708px;
     position: relative;
-    z-index: 10;
-    top: -70px; }
+    margin-top: 0;
+    left: -9px; }
+  .live-example__img2 {
+    background-image: url(../img-tablet/after-tablet.png);
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 693px;
+    position: absolute;
+    top: 0;
+    left: 106px; }
+  .live-example__gray-beckground1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #F2F2F2;
+    height: 460px;
+    width: 384px;
+    z-index: -1; }
+  .live-example__gray-beckground2 {
+    position: absolute;
+    bottom: 0;
+    right: 63px;
+    min-height: 460px;
+    width: 384px;
+    z-index: -1;
+    background-color: #EAEAEA; }
+  .live-example__was-is {
+    margin-top: 0px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    width: 521px;
+    margin-left: -260.5px;
+    justify-content: center; }
   .live-example__toggler {
+    width: 425px;
     height: 6px;
-    width: 435px;
-    border: 0px solid transparent;
     background-color: #DCDCDC; }
   .live-example__toggler::before {
     content: "";
-    height: 30px;
+    background-color: white;
     width: 30px;
-    border-radius: 30px;
-    position: absolute;
-    top: 50%;
+    height: 30px;
     left: 50%;
-    margin-left: -15px;
+    top: 50%;
     margin-top: -15px;
-    background-color: white; }
+    margin-left: -15px; }
   .live-example__toggler::after {
-    content: "";
-    height: 10px;
-    width: 10px;
-    border-radius: 30px;
     position: absolute;
-    top: 50%;
+    border-radius: 100px;
+    content: "";
+    background-color: green;
+    width: 10px;
+    height: 10px;
     left: 50%;
-    margin-left: -5px;
+    top: 50%;
     margin-top: -5px;
-    background-color: green; } }
+    margin-left: -5px; } }
 
 @media (min-width: 1300px) {
-  .live-example__img img {
-    left: 500px;
-    padding-top: 0px; }
-  .live-example__summary-value {
+  .live-example__main-wrap {
+    width: 1298px;
+    height: 460px;
+    margin-top: 75px;
+    padding-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    justify-content: space-between;
     position: relative;
+    margin-left: -63px; }
+  .live-example__wrap1 {
+    width: 430px; }
+  .live-example__wrap2 {
+    position: relative;
+    top: -210px;
+    z-index: 100;
+    min-height: 620px; }
+  .live-example__text {
+    margin-top: 70px;
+    font-size: 16px;
+    line-height: 24px; }
+  .live-example__item {
+    width: 160px;
+    margin-bottom: 60px; }
+  .live-example__food-costs {
+    margin-top: 68px; }
+  .live-example__item-text {
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #F2F2F2;
+    width: auto;
+    bottom: -12%;
+    left: 28%; }
+  .first {
+    left: 38%; }
+  .live-example__item-value {
+    font-size: 30px;
+    line-height: 37px; }
+  .live-example__sum {
+    flex-grow: 1;
+    position: relative;
+    text-align: left;
     font-size: 20px;
     line-height: 20px;
-    width: 188px;
-    text-align: center;
-    left: 0;
-    top: 0; } }
+    font-weight: 600; }
+  .live-example__sum span {
+    padding-left: 60px; }
+  .live-example__img2 {
+    position: absolute; }
+  .live-example__gray-beckground1 {
+    height: 400px; }
+  .live-example__gray-beckground2 {
+    position: absolute;
+    bottom: -70px;
+    right: 63px;
+    height: 460px;
+    width: 384px; }
+  .live-example__crutch-beckground {
+    position: absolute;
+    width: 356px;
+    height: 460px;
+    background-color: #E9E9E9;
+    bottom: 0;
+    right: 0;
+    z-index: 1; } }
 
 body {
   font-family: Oswald; }
