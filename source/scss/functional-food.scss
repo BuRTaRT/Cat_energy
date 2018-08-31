@@ -1,59 +1,99 @@
+.functional-food__desktop-background,
+functional-food__desktop-background2 {
+    display: none;
+}
+.functional-food {
+    background: url(../img/index-background-mobile.png) no-repeat;
+    text-align: center;
+    background-size: contain;
+    margin: 0 auto;
+    color: white;
+    height: auto;
+    margin-top: 10px;
+    width: 280px;
+    box-sizing: border-box;
+    background-color: transparent;
+    position: relative;
+}
+.functional-food h1 {
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.functional-food p {
+    font-size: 14px;
+}
+.functional-food__img {
+    margin-top: 5px;
+}
+.functional-food__button {
+    max-width: 280px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+@media (min-width: 768px) {
     .functional-food {
-        background: url(../img/index-background-mobile.png) no-repeat;
-        text-align: center;
-        background-size: contain;
-        margin: 0 auto;
-        color: white;
-        height: auto;
-        margin-top: 10px;
-        width: 280px;
-        box-sizing: border-box;
+        background-image: url("../img-desktop/index-can.png");
+        width: 100%;
+        height: 829px;
+        background-position: bottom;
     }
     .functional-food h1 {
-        margin: 0 auto;
-        padding-top: 35px;
+        color: black;
+        font-size: 60px;
+        line-height: 60px;
+        text-align: left;
+        margin-left: 85px;
+        font-family: Oswald;
     }
     .functional-food p {
-        font-size: 14px;
-    }
-    .functional-food__img {
-        margin-top: 5px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: left;
+        margin-left: 90px;
+        font-weight: 600;
     }
     .functional-food__button {
-        max-width: 280px;
-        margin: 0 auto;
-        font-size: 13px;
+        margin-left: 85px;
+        width: 250px;
+        height: 55px;
+        font-size: 20px;
+        line-height: 20px;
     }
-    @media (min-width: 768px) {
-        .functional-food {
-            background-image: url("../img-tablet/index-can-tablet.jpg.png");
-            width: 100%;
-            height: 829px;
-            background-position: bottom;
-        }
-        .functional-food h1 {
-            color: black;
-            font-size: 60px;
-            line-height: 60px;
-            text-align: left;
-            margin-left: 85px;
-            font-family: Oswald;
-        }
-        .functional-food p {
-            margin-top: 35px;
-            margin-bottom: 20px;
-            color: black;
-            font-size: 20px;
-            line-height: 20px;
-            text-align: left;
-            margin-left: 90px;
-            font-weight: 600;
-        }
-        .functional-food__button {
-            margin-left: 85px;
-            width: 250px;
-            height: 55px;
-            font-size: 20px;
-            line-height: 20px;
-        }
+}
+@media (min-width: 1300px) {
+    .functional-food {
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image: url("#");
     }
+    .functional-food h1 {
+        margin-top: 40px;
+    }
+    .functional-food__desktop-background {
+        display: block;
+        position: absolute;
+        background: url(../img-desktop/index-background-desktop.png) no-repeat;
+        top: -124px;
+        right: -65px;
+        height: 696px;
+        width: 720px;
+        z-index: -1;
+    }
+    .functional-food__desktop-background2 {
+        display: block;
+        background-image: url("../img-desktop/index-can.png");
+        background-size: auto;
+        height: 499px;
+        width: 552px;
+        position: absolute;
+        top: 18px;
+        left: 700px;
+        z-index: 5;
+        margin-left: -276px;
+    }
+}

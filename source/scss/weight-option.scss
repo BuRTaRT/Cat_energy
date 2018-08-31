@@ -11,11 +11,11 @@
 }
 .weight-option__header {
     display: flex;
-    height: 70px;
     align-items: center;
     font-weight: 600;
     font-size: 24px;
     width: 100%;
+    padding: 20px 0;
 }
 .weight-option__icon {
     background: url(../img/Ellipse%201%20copy.png)no-repeat;
@@ -140,5 +140,58 @@
     .weigth-option__href {
         font-size: 20px;
         line-height: 20px;
+    }
+}
+@media (min-width: 1300px) {
+    .weight-option-flex-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .weight-option {
+        width: 570px;
+        height: 370px;
+        position: relative;
+    }
+    .weight-option__text,
+    .second {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .weight-option__icon {
+        background: url(../img-desktop/Ellipse%201.png)no-repeat;
+        height: 100px;
+        width: 102px;
+        background-position: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-right: 65px;
+    }
+    .puma-seat::before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 97px;
+        width: 70px;
+        background: url(../img-desktop/cat-seat.svg) no-repeat;
+        top: -6px;
+        left: 16px;
+    }
+    .puma-walk::before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 56px;
+        width: 134px;
+        background: url(../img-desktop/cat-walk.svg) no-repeat;
+        top: 22px;
+        left: -16px;
+    }
+    .weigth-option__href{
+        margin-top:0;
     }
 }

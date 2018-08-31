@@ -11,13 +11,13 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <header class="main-header">
+            <header class="main-header main-header__index">
                 <div class="main-header__logo"></div>
                 <div class="main-header__site-name"></div>
-                <div class="tablet-nav">
-                    <a href="#" class="tablet-nav__link tablet-nav__link_active">Главная</a>
-                    <a href="catalog.html" class="tablet-nav__link tablet-nav__link">Каталог Продукции</a>
-                    <a href="form.html" class="tablet-nav__link">Подбор программы</a>
+                <div class="big-nav">
+                    <a href="#" class="big-nav__link big-nav__link_active big-nav__link_white ">Главная</a>
+                    <a href="catalog.html" class="big-nav__link big-nav__link big-nav__link_white">Каталог Продукции</a>
+                    <a href="form.html" class="big-nav__link big-nav__link_white">Подбор программы</a>
                 </div>
                 <nav class="mob-nav"></nav>
             </header>
@@ -30,17 +30,20 @@
                 <a href="form.html" class="nav__links">Подбор программы</a>
             </div>
 
-
             <div class="functional-food">
+                <div class="functional-food__desktop-background2"></div>
+                <div class="functional-food__desktop-background"></div>
                 <h1>Функциональное <br> питание для котов</h1>
                 <p>ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
                 <picture>
                     <source srcset="#" media="(min-width: 768px)">
+                    <source srcset="./img-desktop/index-can.png" media="(min-width: 1300px)">
                     <img class="functional-food__img" src="./img/index-can-mobile.png.png" alt="">
 
                 </picture>
                 <div class="button functional-food__button">ПОДОБРАТЬ ПРОГРАММУ</div>
             </div>
+            <div class="weight-option-flex-wrapper">
             <div class="weight-option">
                 <div class="weight-option__header">
                     <div class="weight-option__icon puma-seat"></div>
@@ -59,6 +62,7 @@
                 <div class="weight-option__text second">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</div>
                 <hr class="weight-option__hr">
                 <div class="weigth-option__href"><a href="">Каталог pro</a></div>
+            </div>
             </div>
             <div class="how-it-works-list">
                 <div class="how-it-works-list__header">Как это работает</div>

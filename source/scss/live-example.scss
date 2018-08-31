@@ -5,7 +5,6 @@
     margin: 0 auto;
     position: relative;
     box-sizing: border-box;
-    
 }
 .live-example__header {
     font-size: 36px;
@@ -180,5 +179,20 @@
         margin-left: -5px;
         margin-top: -5px;
         background-color: green;
+    }
+}
+@media (min-width: 1300px) {
+    .live-example__img img {
+        left: 500px;
+        padding-top: 0px;
+    }
+    .live-example__summary-value {
+        position: relative;
+        font-size: 20px;
+        line-height: 20px;
+        width: 188px;
+        text-align: center;
+        left: 0;
+        top: 0;
     }
 }
