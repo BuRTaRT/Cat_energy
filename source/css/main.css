@@ -608,36 +608,42 @@ template {
 
 .showMore-items {
   text-align: center;
-  padding-top: 25px;
-  height: 185px;
-  margin: 0 10px; }
+  padding-top: 25px; }
 
 .showMore-items__text2 {
   opacity: 0.7; }
 
 @media (min-width: 768px) {
   .showMore-items {
-    height: 456px;
-    margin-top: 120px;
-    width: 324px; }
+    margin-top: 91px;
+    min-height: 513px;
+    box-sizing: border-box;
+    width: 324px;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
   .showMore-items__text {
     font-size: 20px;
     font-weight: 600;
-    margin-top: 50px; }
+    margin-top: 50px;
+    width: 160px; }
   .showMore-items__text2 {
-    font-size: 20px; }
+    font-size: 20px;
+    width: 160px; }
   .showMore-items .button {
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: 68px; } }
+    margin-top: 75px; } }
 
 @media (min-width: 1300px) {
   .showMore-items {
-    height: 456px;
+    min-height: 456px;
     margin-top: 120px;
-    width: 245px; }
+    width: 245px;
+    margin-top: 88px; }
   .showMore-items .button {
     width: 175px; } }
 
@@ -811,10 +817,14 @@ template {
   justify-content: center;
   background-color: #f2f2f2; }
 
+.contacts_bg-color {
+  background-color: transparent; }
+
 .contacts__diller-invitationals {
   flex-basis: 140px;
   font-size: 16px;
-  margin: 31px 0; }
+  margin: 31px 0;
+  font-weight: bold; }
 
 .contacts__adress {
   flex-basis: 140px;
@@ -826,13 +836,19 @@ template {
 
 @media (min-width: 768px) {
   .contacts {
-    justify-content: space-around; }
+    justify-content: space-between;
+    width: 768px;
+    margin: 0 auto; }
+  .contacts_bg-color {
+    background-color: transparent; }
   .contacts__diller-invitationals {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-left: 70px; }
   .contacts__adress {
-    font-size: 16px; } }
+    font-size: 16px;
+    margin-right: 55px; } }
 
 @media (min-width: 1300px) {
   .contacts {
@@ -1400,11 +1416,13 @@ functional-food__desktop-background2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto; }
+    justify-content: space-between; }
   .weight-option {
-    width: 570px;
+    width: 580px;
     height: 370px;
-    position: relative; }
+    position: relative;
+    margin-left: 0;
+    margin-right: 0; }
   .weight-option__text,
   .second {
     width: auto;

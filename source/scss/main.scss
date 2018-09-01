@@ -1,36 +1,37 @@
-@import "normalize";
-@import "main-header";
-@import "page-h1";
-@import "variables";
-@import "hor-line";
-@import "product-item";
-@import "button";
-@import "showMore-items";
-@import "cross";
-@import "additional-products";
-@import "additional-product";
-@import "contacts";
-@import "map";
-@import "footer";
-@import "product-item-container";
-@import "fonts";
-@import "form-input";
-@import "form-goal";
-@import "form-flex-wrapper";
-@import "line-styled";
-@import "contact-data";
-@import "animal-comments";
-@import "additional-options";
-@import "send-button-block";
-@import "functional-food";
-@import "weight-option";
-@import "how-it-works-list";
-@import "live-example";
+@import "common/normalize";
+@import "common/main-header";
+@import "common/page-h1";
+@import "common/variables";
+@import "common/hor-line";
+@import "catalog/product-item";
+@import "common/button";
+@import "catalog/showMore-items";
+@import "catalog/cross";
+@import "catalog/additional-products";
+@import "catalog/additional-product";
+@import "common/contacts";
+@import "common/map";
+@import "common/footer";
+@import "catalog/product-item-container";
+@import "common/fonts";
+@import "form/form-input";
+@import "form/form-goal";
+@import "form/form-flex-wrapper";
+@import "common/line-styled";
+@import "form/contact-data";
+@import "form/animal-comments";
+@import "form/additional-options";
+@import "common/send-button-block";
+@import "index/functional-food";
+@import "index/weight-option";
+@import "index/how-it-works-list";
+@import "index/live-example";
 
 body {
     font-family: Oswald;
 }
 .wrapper {
+    
     max-width: 320px;
     margin: 0 auto;
 }
