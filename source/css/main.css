@@ -429,9 +429,11 @@ template {
       text-transform: uppercase; }
   .big-nav__link_active {
     border-bottom: 2px solid #68b738; }
+  .big-nav__link_active-white {
+    border-bottom: 2px solid white;
+    color: white; }
   .big-nav__link_white {
-    color: white;
-    border-bottom: 2px solid white; } }
+    color: white; } }
 
 .main-header__logo:hover, .big-nav__link:hover {
   opacity: 0.8; }
