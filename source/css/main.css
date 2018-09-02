@@ -306,7 +306,7 @@ template {
   align-items: center;
   padding-bottom: 5px;
   flex-wrap: wrap;
-  min-width: 280px; }
+  min-width: 240px; }
 
 .big-nav {
   display: none; }
@@ -1270,7 +1270,7 @@ functional-food__desktop-background2 {
   box-sizing: border-box;
   background-color: transparent;
   position: relative;
-  min-width: 320px;
+  min-width: 280px;
   max-width: 320px; }
 
 .functional-food h1 {
