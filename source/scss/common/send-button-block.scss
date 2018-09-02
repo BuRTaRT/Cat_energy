@@ -6,7 +6,7 @@
     text-align: center;
     padding: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
     .send-button-block {
         display: flex;
         flex-direction: row;
@@ -16,7 +16,7 @@
         margin: 0px 0px;
     }
 }
-@media (min-width: 1300px) {
+@media (min-width: $desktop-width) {
     .send-button-block {
         display: flex;
         flex-direction: row;

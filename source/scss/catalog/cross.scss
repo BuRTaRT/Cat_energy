@@ -23,7 +23,7 @@
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:$tablet-width) {
 	.cross {
 		margin: 0 auto;
 		height: 60px;

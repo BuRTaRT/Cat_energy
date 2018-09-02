@@ -20,7 +20,7 @@
 	color: #444444;
 }
 
-@media(min-width:768px) {
+@media(min-width:$tablet-width) {
 	.button {
 		width: 90%;
 		margin-left: auto;
@@ -28,7 +28,7 @@
 	}
 }
 
-@media(min-width:1300px) {
+@media(min-width:$desktop-width) {
 	.button {
 		max-width: 250px;
 		margin: 0 0;

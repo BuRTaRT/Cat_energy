@@ -22,7 +22,7 @@
     padding-top: 5px;
     font-family: arial;
 }
-@media(min-width:768px) {
+@media(min-width:$tablet-width) {
     .contacts {
         justify-content: space-between;
         width: 768px;
@@ -42,7 +42,7 @@
         margin-right: 55px;
     }
 }
-@media(min-width:1300px) {
+@media(min-width:$desktop-width) {
     .contacts-map-flex-wrapper {
         position: relative;
     }

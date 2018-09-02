@@ -78,7 +78,7 @@
     width: 200px;
     font-family: "Arial";
 }
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
     .how-it-works-list {
         width: 100%;
         display: flex;
@@ -149,7 +149,7 @@
         z-index: -1;
     }
 }
-@media (min-width: 1300px){
+@media (min-width: $desktop-width){
     .how-it-works-list__item {
         height: 235px;
         width: 25%;
