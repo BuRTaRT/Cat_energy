@@ -1,7 +1,7 @@
 @import "common/normalize";
+@import "common/variables";
 @import "common/main-header";
 @import "common/page-h1";
-@import "common/variables";
 @import "common/hor-line";
 @import "catalog/product-item";
 @import "common/button";
@@ -31,13 +31,11 @@ body {
     font-family: Oswald;
 }
 .wrapper {
-    
-    max-width: 320px;
+    max-width: $tablet-width;
     margin: 0 auto;
 }
 .container {
-    max-width: 280px;
-    padding: 0 5%;
+    padding: 0 20px;
     margin: 0 auto;
 }
 .nav {
@@ -62,16 +60,7 @@ body {
 .nav_hidden {
     display: flex;
 }
-@media screen and (min-width: 320px) {
-    .wrapper {
-        max-width: 768px;
-        margin: 0 auto;
-    }
-    .container {
-        max-width: 708px;
-        margin: 0 auto;
-    }
-}
+
 @media screen and (min-width: 768px) {
     .wrapper {
         max-width: 1440px;

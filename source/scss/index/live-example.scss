@@ -1,9 +1,10 @@
 .live-example {
     min-height: 500px;
     background-color: #F2F2F2;
-    width: 320px;
     box-sizing: border-box;
     padding: 0 20px;
+    width: $mob-width;
+    margin-left: -20px;
     margin: 0 auto;
 }
 .live_example__header {
@@ -70,6 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .live-example__toggler {
     margin: 0 10px;
@@ -95,7 +97,7 @@
     line-height: 20px;
     font-weight: 600;
 }
-@media (min-width:768px) {
+@media (min-width: $tablet-width) {
     .live-example {
         width: 100%;
         padding: 0px;
@@ -204,18 +206,19 @@
         margin-left: -5px;
     }
 }
-@media (min-width:1300px) {
+@media (min-width: $desktop-width) {
     .live-example__main-wrap {
-        width: 1298px;
+        width: 1350px;
         height: 460px;
         margin-top: 75px;
-        padding-left: 50px;
         display: flex;
         align-items: flex-start;
         background-color: #F2F2F2;
         justify-content: space-between;
         position: relative;
-        margin-left: -63px;
+        margin-left: -65px;
+        box-sizing: border-box;
+        padding-left: 65px;
     }
     .live-example__wrap1 {
         width: 430px;

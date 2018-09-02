@@ -28,7 +28,7 @@
 .footer__developer {
     opacity: 0.7;
 }
-@media (min-width:768px) {
+@media (min-width:$tablet-width) {
     .footer {
         padding: 40px 30px;
         flex-direction: row;
@@ -49,5 +49,12 @@
         width: 170px;
         padding: 0;
         justify-content: space-between;
+    }
+}
+@media (min-width:$desktop-width) {
+    .footer {
+        box-sizing: border-box;
+        width: 1350px;
+        margin-left: -25px;
     }
 }
