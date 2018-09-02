@@ -7,6 +7,7 @@
     align-items: center;
     padding-bottom: 5px;
     flex-wrap: wrap;
+    min-width: 320px;
 }
 .big-nav {
     display: none;
@@ -21,7 +22,7 @@
     height: 20px;
     width: 105px;
 }
-.mob-nav {
+.main-header__mob-nav {
     border-bottom: 2px solid black;
     height: 20px;
     width: 25px;
@@ -73,7 +74,7 @@
     }
 }
 @media (min-width: $tablet-width) {
-    .mob-nav {
+    .main-header__mob-nav{
         display: none;
     }
     .main-header {
@@ -110,7 +111,7 @@
     }
 }
 @media (min-width: $desktop-width) {
-    .mob-nav {
+    .main-header__mob-nav {
         display: none;
     }
     .main-header__site-name{

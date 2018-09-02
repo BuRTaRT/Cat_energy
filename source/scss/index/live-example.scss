@@ -3,9 +3,10 @@
     background-color: #F2F2F2;
     box-sizing: border-box;
     padding: 0 20px;
-    width: $mob-width;
+    flex-basis: $mob-width;
     margin-left: -20px;
     margin: 0 auto;
+    min-width: 280px;
 }
 .live_example__header {
     font-size: 36px;

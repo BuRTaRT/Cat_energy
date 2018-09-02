@@ -305,7 +305,8 @@ template {
   padding-top: 10px;
   align-items: center;
   padding-bottom: 5px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  min-width: 320px; }
 
 .big-nav {
   display: none; }
@@ -320,15 +321,15 @@ template {
   height: 20px;
   width: 105px; }
 
-.mob-nav {
+.main-header__mob-nav {
   border-bottom: 2px solid black;
   height: 20px;
   width: 25px;
   position: relative;
   top: -4px; }
-  .mob-nav:hover {
+  .main-header__mob-nav:hover {
     cursor: pointer; }
-  .mob-nav::before {
+  .main-header__mob-nav::before {
     content: "";
     position: absolute;
     top: 5px;
@@ -336,7 +337,7 @@ template {
     width: 100%;
     height: 2px;
     background-color: black; }
-  .mob-nav::after {
+  .main-header__mob-nav::after {
     content: "";
     position: absolute;
     top: 12px;
@@ -344,9 +345,9 @@ template {
     width: 100%;
     height: 2px;
     background-color: black; }
-  .mob-nav_hide {
+  .main-header__mob-nav_hide {
     border: 0; }
-  .mob-nav_hide::before {
+  .main-header__mob-nav_hide::before {
     content: "";
     position: absolute;
     top: 12px;
@@ -355,7 +356,7 @@ template {
     height: 2px;
     background-color: black;
     transform: rotate(-46deg); }
-  .mob-nav_hide::after {
+  .main-header__mob-nav_hide::after {
     content: "";
     position: absolute;
     top: 12px;
@@ -366,7 +367,7 @@ template {
     transform: rotate(47deg); }
 
 @media (min-width: 768px) {
-  .mob-nav {
+  .main-header__mob-nav {
     display: none; }
   .main-header {
     display: flex;
@@ -396,7 +397,7 @@ template {
     border-bottom: 2px solid #68b738; } }
 
 @media (min-width: 1300px) {
-  .mob-nav {
+  .main-header__mob-nav {
     display: none; }
   .main-header__site-name {
     background: url(../img-desktop/logo-desktop.svg.svg) no-repeat; }
@@ -861,7 +862,8 @@ template {
   flex-basis: 140px;
   font-size: 16px;
   margin: 31px 0;
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center; }
 
 .contacts__adress {
   flex-basis: 140px;
@@ -888,8 +890,28 @@ template {
     margin-right: 55px; } }
 
 @media (min-width: 1300px) {
+  .contacts-map-flex-wrapper {
+    position: relative; }
   .contacts {
-    display: none; } }
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 100;
+    width: 565px;
+    height: 200px;
+    background-color: white;
+    justify-content: space-around; }
+  .contacts__diller-invitationals {
+    margin: 0px;
+    align-self: center;
+    text-align: left; }
+  .contacts__adress {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px;
+    align-self: center;
+    font-size: 16px;
+    line-height: 20px; } }
 
 .map-container {
   min-height: 350px;
@@ -1248,8 +1270,8 @@ functional-food__desktop-background2 {
   box-sizing: border-box;
   background-color: transparent;
   position: relative;
-  max-width: 320px;
-  min-width: 280p; }
+  min-width: 320px;
+  max-width: 320px; }
 
 .functional-food h1 {
   margin: 0 auto;
@@ -1663,9 +1685,10 @@ functional-food__desktop-background2 {
   background-color: #F2F2F2;
   box-sizing: border-box;
   padding: 0 20px;
-  width: 320px;
+  flex-basis: 320px;
   margin-left: -20px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-width: 280px; }
 
 .live_example__header {
   font-size: 36px;
