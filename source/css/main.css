@@ -705,6 +705,15 @@ template {
   position: relative;
   margin: 0 auto; }
 
+.additional-product {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 2px solid #D9D9D9;
+  box-sizing: border-box; }
+
+.additional-product:last-child {
+  border-bottom: 2px solid #D9D9D9; }
+
 .additional-products__present {
   margin: 30px auto;
   background: url(../img/gift-photo-mobile.png) no-repeat;
@@ -732,6 +741,12 @@ template {
   .additional-products .hor-line {
     display: flex;
     width: 100%; }
+  .additional-product {
+    border: 2px solid #D9D9D9;
+    padding: 30px 35px;
+    border-bottom: 0; }
+  .additional-product:last-child {
+    margin-bottom: 2px solid #D9D9D9; }
   .additional-products__present {
     margin: 0px auto;
     background: url(../img-tablet/gift-photo-tablet.png) no-repeat;
@@ -757,11 +772,18 @@ template {
 
 @media (min-width: 1300px) {
   .additional-products {
-    display: flex; }
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px; }
+  .additional-product {
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 0px;
+    padding-top: 17px;
+    padding-bottom: 17px; }
   .additional-products__present {
-    background: url(../img/gift-photo-mobile.png) no-repeat;
-    margin-left: 50px;
-    margin-top: 53px; }
+    background: url(../img-desktop/gift-photo-desktop.png) no-repeat;
+    margin-left: 50px; }
   .additional-products__present-icon {
     position: relative;
     top: 72px;
@@ -777,7 +799,9 @@ template {
     width: 200px;
     margin: 0 auto;
     text-align: center;
-    display: inline-block; } }
+    display: inline-block; }
+  .additional-product__packaging {
+    padding-right: 20px; } }
 
 .additional-product {
   display: flex;
@@ -786,13 +810,15 @@ template {
 
 .additional-product__name {
   font-size: 16px;
-  margin: 5px 0; }
+  margin: 5px 0;
+  font-family: "Arial"; }
 
 .additional-product__packaging {
   margin: 5px 0;
   opacity: 0.6;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-family: "Arial"; }
 
 @media (min-width: 768px) {
   .additional-product {
@@ -810,15 +836,17 @@ template {
     flex-direction: row;
     width: 900px;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 25px; }
+    justify-content: space-between; }
   .additional-product__packaging {
     width: 300px;
     justify-content: space-between; }
   .additional-product__name {
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
     margin: 5px 0;
-    width: 300px; } }
+    width: 300px;
+    font-family: Oswald; } }
 
 .contacts {
   display: flex;
@@ -1179,7 +1207,8 @@ template {
     flex-grow: 1; } }
 
 .send-button-block {
-  margin: 30px 0; }
+  margin: 30px 0;
+  margin-bottom: 50px; }
 
 .send-button-block__info {
   text-align: center;
