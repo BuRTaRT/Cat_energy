@@ -1248,7 +1248,8 @@ functional-food__desktop-background2 {
   box-sizing: border-box;
   background-color: transparent;
   position: relative;
-  max-width: 320px; }
+  max-width: 320px;
+  min-width: 280p; }
 
 .functional-food h1 {
   margin: 0 auto;
