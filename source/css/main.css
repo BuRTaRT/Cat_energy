@@ -306,7 +306,7 @@ template {
   align-items: center;
   padding-bottom: 5px;
   flex-wrap: wrap;
-  min-width: 320px; }
+  min-width: 280px; }
 
 .big-nav {
   display: none; }
