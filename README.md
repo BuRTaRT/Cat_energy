@@ -6,7 +6,7 @@ Adaptive web-site .
 
 ### Tech-information:
 - HTML,CSS.
--Display model:flex;
+- Display_model:flex;
 - Javascript(es5).
 - SASS
 - GULP
