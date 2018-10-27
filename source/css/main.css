@@ -310,6 +310,11 @@ template {
 .big-nav {
   display: none; }
 
+.main-header__logo-container {
+  height: 40px;
+  width: 100px;
+  display: flex; }
+
 .main-header__logo {
   height: 40px;
   width: 35px;
@@ -411,6 +416,9 @@ template {
     line-height: 25px; }
   .main-header {
     padding-top: 50px; }
+  .main-header__logo-container {
+    display: flex;
+    flex-grow: 3; }
   .main-header__logo {
     flex-grow: 3;
     height: 59px;
@@ -435,10 +443,12 @@ template {
   .big-nav__link_white {
     color: white; } }
 
-.main-header__logo:hover, .big-nav__link:hover {
+.main-header__logo:hover,
+.big-nav__link:hover {
   opacity: 0.8; }
 
-.main-header__logo:active, .big-nav__link:active {
+.main-header__logo:active,
+.big-nav__link:active {
   opacity: 0.3; }
 
 .page-h1 {
