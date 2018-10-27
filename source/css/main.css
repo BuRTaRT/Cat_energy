@@ -313,10 +313,10 @@ template {
 .main-header__logo {
   height: 40px;
   width: 35px;
-  background: url(../img/logo-mobile.png) no-repeat; }
+  background: url(../img/logo-mobile.svg) no-repeat; }
 
 .main-header__site-name {
-  background: url(../img/logo-mobile-header.png) no-repeat;
+  background: url(../img/logo-mobile-header.svg) no-repeat;
   height: 20px;
   width: 105px; }
 
@@ -379,7 +379,7 @@ template {
     flex-grow: 1.8;
     height: 65px;
     width: 180px;
-    background: url(../img-tablet/logo-tablet.png) no-repeat; }
+    background: url(../img-tablet/logo-tablet.svg) no-repeat; }
   .main-header__site-name {
     display: none; }
   .big-nav {
@@ -705,7 +705,8 @@ template {
 
 .additional-products {
   position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 .additional-product {
   padding-top: 10px;
@@ -1347,6 +1348,9 @@ functional-food__desktop-background2 {
     left: 700px;
     z-index: 5;
     margin-left: -276px; } }
+
+.weight-option-flex-wrapper {
+  overflow: hidden; }
 
 .weight-option {
   height: 305px;

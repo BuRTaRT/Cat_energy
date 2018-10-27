@@ -14,10 +14,10 @@
 .main-header__logo {
     height: 40px;
     width: 35px;
-    background: url(../img/logo-mobile.png) no-repeat;
+    background: url(../img/logo-mobile.svg) no-repeat;
 }
 .main-header__site-name {
-    background: url(../img/logo-mobile-header.png) no-repeat;
+    background: url(../img/logo-mobile-header.svg) no-repeat;
     height: 20px;
     width: 105px;
 }
@@ -88,7 +88,8 @@
         flex-grow: 1.8;
         height: 65px;
         width: 180px;
-        background: url(../img-tablet/logo-tablet.png) no-repeat;
+        background: url(../img-tablet/logo-tablet.svg) no-repeat;
+        
     }
     .main-header__site-name {
         display: none;
