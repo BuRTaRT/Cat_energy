@@ -12,7 +12,6 @@
     display: none;
 }
 .main-header__logo-container {
-    height: 40px;
     width: 100px;
     display: flex;
 }
@@ -89,6 +88,10 @@
         align-items: center;
         padding-bottom: 5px;
     }
+     .main-header__logo-container {
+       
+        flex-grow: 3;
+    }
     .main-header__logo {
         flex-grow: 1.8;
         height: 65px;
@@ -112,6 +115,10 @@
     }
     .big-nav__link_active {
         border-bottom: 2px solid #68b738;
+    }
+    .big-nav__link_active-main {
+        border-bottom: 2px solid green;
+        
     }
 }
 @media (min-width: $desktop-width) {
@@ -159,11 +166,12 @@
         }
     }
     .big-nav__link_active {
-        border-bottom: 2px solid #68b738;
+        border-bottom: 2px solid green;
     }
-    .big-nav__link_active-white {
+    .big-nav__link_active-main {
         border-bottom: 2px solid white;
-        color: white;
+        color:white;
+        
     }
     .big-nav__link_white {
         color: white;
