@@ -311,7 +311,6 @@ template {
   display: none; }
 
 .main-header__logo-container {
-  width: 100px;
   display: flex; }
 
 .main-header__logo {
