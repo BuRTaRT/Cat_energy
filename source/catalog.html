@@ -37,14 +37,14 @@
 
             <div class="hor-line hor-line_noMargin"></div>
 
-            <h1 class="page-h1" data-aos="fade-right">Каталог продукции</h1>
+            <h1 class="page-h1" data-aos="fade-right" data-aos-delay="300">Каталог продукции</h1>
             <div class="hor-line"></div>
 
             <div class="product-item-container">
 
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="./img/catalog-1-tablet.png" alt="" class="product-item__img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="./img/catalog-1-tablet.png" alt="" class="product-item__img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -66,9 +66,9 @@
 
                 <div class="hor-line"></div>
 
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-2-tablet.png" alt="" class="product-item__img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-2-tablet.png" alt="" class="product-item__img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -90,9 +90,9 @@
 
                 <div class="hor-line"></div>
 
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-3-tablet.png.png" alt="" class="product-item__img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-3-tablet.png.png" alt="" class="product-item__img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -114,9 +114,9 @@
 
 
                 <div class="hor-line"></div>
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-4-tablet.png.png" alt="" class="product-item__img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-4-tablet.png.png" alt="" class="product-item__img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -139,9 +139,9 @@
 
                 <div class="hor-line"></div>
 
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="img-tablet/catalog-5-tablet.png" class="product-item__img" alt="img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="img-tablet/catalog-5-tablet.png" class="product-item__img" alt="img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -164,9 +164,9 @@
 
                 <div class="hor-line"></div>
 
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-6-tablet.png.png" alt="" class="product-item__img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-6-tablet.png.png" alt="" class="product-item__img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -188,9 +188,9 @@
 
                 <div class="hor-line"></div>
 
-                <div class="product-item" >
+                <div class="product-item">
                     <div class="product-item-container__wrapper">
-                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-7-tablet.png" alt="" class="product-item__img" data-aos="zoom-in"></div>
+                        <div class="product-item__img-wrapper"><img src="./img-tablet/catalog-7-tablet.png" alt="" class="product-item__img" data-aos="zoom-in" data-aos-delay="200"></div>
                         <div class="product-item__characters">
                             <div class="product-item__name">CAT ENERGY
                                 <br> PRO 500Г</div>
@@ -213,7 +213,7 @@
 
                 <div class="hor-line"></div>
 
-                <div class="showMore-items" >
+                <div class="showMore-items">
                     <div class="cross"></div>
                     <p class="showMore-items__text">ПОКАЗАТЬ ЕЩЁ 100500 ТОВАРОВ</p>
                     <p class="showMore-items__text2">На самом деле вкусов гораздо больше!</p>
@@ -313,11 +313,11 @@
     <script src="js/mob-catalog.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once:true
-        });
-
-
+        window.onload = function() {
+            AOS.init({
+                once: true
+            });
+        }
     </script>
 
 </body>
