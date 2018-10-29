@@ -381,7 +381,6 @@ template {
   .main-header__logo-container {
     flex-grow: 3; }
   .main-header__logo {
-    flex-grow: 1.8;
     height: 65px;
     width: 180px;
     background: url(../img-tablet/logo-tablet.svg) no-repeat; }
@@ -422,7 +421,6 @@ template {
     display: flex;
     flex-grow: 3; }
   .main-header__logo {
-    flex-grow: 3;
     height: 59px;
     width: 202px;
     background: url(../img-desktop/logo-desktop.png) no-repeat; }
