@@ -887,7 +887,7 @@ template {
 @media (min-width: 768px) {
   .contacts {
     justify-content: space-between;
-    width: 768px;
+    width: 708px;
     margin: 0 auto; }
   .contacts_bg-color {
     background-color: transparent; }
@@ -929,7 +929,8 @@ template {
   width: 100%;
   display: flex;
   position: relative;
-  min-width: 280px; }
+  min-width: 280px;
+  overflow: hidden; }
 
 .map {
   flex-grow: 1;
@@ -954,7 +955,8 @@ template {
 @media (min-width: 1300px) {
   .map-container {
     width: 1350px;
-    margin-left: -25px; }
+    margin-left: -25px;
+    overflow: hidden; }
   .map {
     background: url(../img-desktop/map.png) no-repeat;
     background-position: center; }
@@ -1968,7 +1970,7 @@ body {
   margin: 0 auto; }
 
 .container {
-  padding: 0 20px;
+  padding: 0 25px;
   margin: 0 auto; }
 
 .nav {
