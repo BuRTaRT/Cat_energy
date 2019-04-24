@@ -76,6 +76,9 @@ body {
         width: 1300px;
         margin: 0 auto;
     }
+    body{
+        overflow-x: hidden;
+    }
     .container {
         width: 1220px;
         max-width: 1220px;
